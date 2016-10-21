@@ -1,0 +1,81 @@
+<div class="row">
+    <div class="col-md-6">
+        <div class="chat-window-container"></div>
+        <div id="content">
+            <div class="container-fluid">
+                <div class="media user-profile">
+                    <div class="media-object pull-left">
+                        <div class="panel panel-default profile-user-box">
+                            <div class="avatar">
+                                <img src="res/img/ministers/ranil.jpg" alt="" class="img-circle" />
+                                <h3>Ranil Wickramasinghe</h3>
+                                <a href="#" class="btn btn-success">Follow<i class="fa fa-check-circle fa-fw"></i></a><br>
+                            </div>
+                            <p>Ranil Wickramasinghe, who is the hon. prime minister and the minister of Reconciliation, Policy Development and Economic Affairs of the
+                                <strong>democratic socialist republic of sri lanka</strong>and the Leader of the United National Party since 1994 and the Member of Parliament for Colombo District since 1977.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+
+        <!--Friends -->
+        <div class="panel panel-default">
+            <div class="panel-heading panel-heading-gray">
+                <a href="#" class="btn btn-white btn-xs pull-right"><i class="fa fa-pencil"></i></a>
+                <i class="fa fa-info-circle"></i> About
+            </div>
+            <div class="panel-body">
+                <ul class="list-unstyled profile-about">
+                    <li>
+                        <div class="row">
+                            <div class="col-sm-4"><span class="text-muted">Date of Birth</span>
+                            </div>
+                            <div class="col-sm-8">March 24, 1949</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-sm-4"><span class="text-muted">Title</span>
+                            </div>
+                            <div class="col-sm-8">Prime Minister</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-sm-4"><span class="text-muted">Gender</span>
+                            </div>
+                            <div class="col-sm-8">Male</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-sm-4"><span class="text-muted">Lives in</span>
+                            </div>
+                            <div class="col-sm-8">Colombo 07, Sri Lanka</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-sm-4"><span class="text-muted">Credits</span>
+                            </div>
+                            <div class="col-sm-8">9</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<h1>Recent Petitions</h1>
+<div class="row" style="background:#e3e3e3; margin-bottom:5px" ng-repeat="petition in petitions | limitTo:1">
+    <img ng-src="{{petition.image}}" alt="petiton image" class="thumbnail" style="float:left;margin:5px;"/>
+    <h3>{{petition.title}}</h3>
+    <p>{{petition.desc}}</p>
+    <a href="#petition/{{petition.id}}" class="btn btn-default">View Petition</a>
+</div>

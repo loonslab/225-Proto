@@ -1,0 +1,167 @@
+<ul class="nav nav-tabs">
+    <li class="active"><a data-target="#home" data-toggle="tab"><img alt="" src="res/img/steps/one.png"></a></li>
+    <li><a data-target="#profile" data-toggle="tab"><img alt="" src="res/img/steps/two.png"></a></li>
+    <li><a data-target="#dropdown1" data-toggle="tab"><img alt="" src="res/img/steps/three.png"></a></li>
+    <li><a data-target="#dropdown2" data-toggle="tab"><img alt="" src="res/img/steps/four.png"></a></li>
+</ul>
+<div id="myTabContent" class="tab-content">
+    <div class="tab-pane fade active in" id="home">
+        <h1>What change do you want to make?</h1>
+
+        <form class="form-horizontal">
+            <fieldset>
+                <div class="form-group">
+
+                    <div class="col-lg-10">
+                        <textarea class="form-control" rows="3" id="textArea" ng-model="title"></textarea>
+						<span class="help-block">Describe the specific change you
+							want to make. This will become a headline that can tell the story
+							of your petition in an instant.</span>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <ul class="pager">
+            <li><a class="navi">Next</a></li>
+            <br>
+        </ul>
+
+        <div class="well well-lg">
+            <h2>How to write a great headline?</h2>
+
+            <h4>
+                <b>Keep it short and to the point
+            </h4>
+            </b> <br>
+
+            <p>Example: "Buy organic, free-range eggs for your restaurants"<br>
+                Not: "Stop the inhumane treatment of chickens in battery farms that are force-fed..."</p>
+            <br>
+            <h4>
+                <b>Focus on the solution</b>
+            </h4>
+            <br>
+
+            <p>Example: "Raise the minimum wage in Surrey to �15 an hour"<br>
+                Not: "Stop rising income inequality in Colombo"</p>
+            <br>
+            <h4>
+                <b>Communicate urgency</b>
+            </h4>
+            <br>
+
+            <p>Example: "Approve life-saving medication for my daughter's insurance before it's too late"</p>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="profile">
+        <h1>Who can make this change?</h1>
+
+        <form class="form-horizontal">
+            <fieldset>
+                <div class="form-group">
+
+                    <div class="col-lg-10">
+                        <textarea class="form-control" rows="3" id="textArea" ng-model="party"></textarea>
+						<span class="help-block">The ideal petition recipient has
+							the power to give you what you want. This is usually an elected
+							official or government body.</span>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <ul class="pager">
+            <li><a class="navi-pre">Previous</a></li>
+            <li><a class="navi">Next</a></li>
+        </ul>
+        <div class="well well-lg">
+            <h2>How to find the right decision maker?</h2>
+
+            <h4>
+                <b>Choose someone who can give you what you want
+            </h4>
+            </b> <br>
+
+            <p>You might need to do some research to find the right
+                person who can make or influence the decision.</p><br>
+            <h4>
+                <b>Don't go straight to the top</b>
+            </h4>
+            <br>
+
+            <p>You might see faster results if you choose a more junior
+                person who is petitioned less often than more recognisable figures.</p><br>
+            <h4>
+                <b>Choose someone you can work with</b>
+            </h4>
+            <br>
+
+            <p>Your petition is most likely to win by reaching an
+                agreement with your decision maker.</p>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="dropdown1">
+        <h1>Tell your story</h1>
+
+        <form class="form-horizontal">
+            <fieldset>
+                <div class="form-group">
+
+                    <div class="col-lg-10">
+                        <textarea class="form-control" rows="3" id="textArea" ng-model="story"></textarea>
+                        <span class="help-block">Explain the problem you want to solve and how this change will impact you, your family, or your community.</span>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <ul class="pager">
+            <li><a class="navi-pre">Previous</a></li>
+            <li><a class="navi">Next</a></li>
+        </ul>
+        <div class="well well-lg">
+            <h2>How to inspire your readers to act?</h2>
+
+            <h4>
+                <b>Describe the people involved and the problem they are facing
+            </h4>
+            </b> <br>
+
+            <p>Readers are most likely to take action when they understand who is affected.</p><br>
+            <h4>
+                <b>Describe the solution</b>
+            </h4>
+            <br>
+
+            <p>Explain what needs to happen and who can make the change. Make it clear what happens if you win or
+                lose.</p><br>
+            <h4>
+                <b>Make it personal</b>
+            </h4>
+            <br>
+
+            <p>Readers are more likely to sign and support your petition if it�s clear why your care.</p><br>
+            <h4>
+                <b>Respect others</b>
+            </h4><br>
+
+            <p>Don't bully, use hate speech, threaten violence or make things up.</p>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="dropdown2">
+        <ul class="pager">
+            <h2>Save and Continue</h2>
+
+            <p><b>Petition : </b>{{title}}</p>
+
+            <p><b>Petition responsible party : </b>{{party}}</p>
+
+            <p><b>Your story : </b>{{story}}</p>
+
+            <li><a ng-click="addPetition()">Submit</a></li><br><br>
+            
+            <a href="http://www.facebook.com/"><img alt="" src="res/img/socialmedia/fb.png"/></a>
+            <a href="http://www.facebook.com/"><img alt="" src="res/img/socialmedia/twitter.png"/></a>
+            
+        </ul>
+    </div>
+
+</div>

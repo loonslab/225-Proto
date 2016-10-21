@@ -1,0 +1,83 @@
+<div class="row">
+    <div class="container-fluid">
+        <!-- Carousel -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div >
+                <div class="carousel-caption" style="background:rgba(0,0,0,0.7)!important; bottom:0!important;top:0;">
+                    <h1 style="color:white">Raise Your Voice for a Better Sri Lanka</h1>
+                    <h3 style="color:white">225+ is your Website. Get to know latest political changes and whats going on in the parliment.
+                        We raise your voice to the relevant and top most positions. Let's challange, argue,
+                        and raise voice against the bad.  </h3>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                </div>
+            </div>
+
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img class="first-slide" src="res/img/slide1.jpg" alt="First slide">
+                </div>
+                <div class="item">
+                    <img class="second-slide" src="res/img/slider2.jpg" alt="Second slide">
+                </div>
+                <div class="item">
+                    <img class="third-slide" src="res/img/slider3.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="left carousel-control" data-target="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" data-target="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- /.carousel -->
+        <!-- end Slider -->
+    </div>
+</div>
+
+<div class="row howto" style="margin-bottom:20px;">
+    <div class="row grid-divider">
+        <div class="col-sm-4">
+            <div class="col-padding">
+                <h3>What is 225 Plus</h3>
+                <img class="desc-img thumbnail" src="res/img/coloumns/parliment.png" alt=""/>
+                <p>
+                    225 Plus is a site that let's you get all your questions answered directly from the decision makers.
+                    225 plus allows your questions to be directed at the appropriate ministeries. Like minded people can
+                    also vote for your question. The officials can then answer the question on this site.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="col-padding">
+                <h3>How it works?</h3>
+                <img class="desc-img thumbnail" src="res/img/coloumns/how.jpg" alt=""/>
+                <p>Anyone in the general public can ask a question from a ministry, but since they only have limited amount
+                    of time, we only direct the questions with over 1000 votes to the appropriate ministeries
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="col-padding">
+                <h3>How do I create a petition?</h3>
+                <img class="desc-img thumbnail" src="res/img/coloumns/petition.jpg" alt=""/>
+                <p>You can create a peition and get it answered by other people who needs to get answers to the same
+                    problem. But first search to see if a similar question was already asked. Then, you can use the
+                    'create petition' page to start a new petition.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<hr/>
+<h2>Trending Petitions</h2>
+<div class="row" style="background:#e3e3e3; margin-bottom:5px" ng-repeat="petition in petitions">
+    <img ng-src="{{petition.image}}" alt="petiton image" class="thumbnail" style="float:left;margin:5px;"/>
+    <h3>{{petition.title}}</h3>
+    <p>{{petition.desc}}</p>
+    <a href="#petition/{{petition.id}}" class="btn btn-default">View Petition</a>
+</div>

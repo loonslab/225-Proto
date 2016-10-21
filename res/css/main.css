@@ -1,0 +1,164 @@
+@CHARSET "ISO-8859-1";
+nav a {
+    color: black;
+}
+
+/*Center navigation tabs*/
+.nav-tabs > li, .nav-pills > li {
+    float: none;
+    display: inline-block;
+    *display: inline; /* ie7 fix */
+    zoom: 1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align: center;
+}
+
+a {
+    cursor: pointer;
+}
+
+
+/*Change cursor*/
+.tab-pane h1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.tab-pane h2 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.tab-pane h4 {
+    margin-bottom: -2px;
+    text-align: center;
+}
+
+.tab-pane p {
+    text-align: center;
+}
+
+.tab-pane span {
+    text-align: center;
+}
+
+.col-lg-10 {
+    margin-left: 10%;
+}
+
+#logo {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.navbar {
+    background-color: #f1f1f1;
+    height: 60px;
+    font-family: Oswald, sans-serif;
+}
+
+.navbar a {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.navbar-header {
+    margin-top: 5px;
+}
+
+.desc-img {
+    display:block;
+    margin: 20px auto;
+    width: 200px;
+}
+
+.howto h3{
+    text-align:center;
+} .tab-pane h4{
+ 	margin-bottom: -2px;
+ 	text-align: center;
+ }
+ 
+ .tab-pane p{
+ 	text-align: center;
+ }
+ 
+ .tab-pane span{
+ 	text-align: center;
+ }
+ .col-lg-10{
+ 	margin-left: 10%;
+ }
+ 
+ #logo{
+ 	font-size: 40px;
+ 	font-weight: bold;
+ 	margin-top: 10px;
+ }
+ 
+ .navbar {
+ 	background-color: #f1f1f1;
+ 	height: 60px;
+ 	font-family: font-family: 'Oswald', sans-serif;
+ }
+ 
+ .navbar a{
+ 	font-size: 20px;
+ 	margin-top: 10px;
+ }
+ 
+ .navbar-header{
+ 	margin-top: 5px;
+ 	}
+ 	
+ #navigationbar li{
+ 	margin-right: 15px;
+ 	border-bottom-style: solid;
+ }
+.ministries{
+  margin: 20px;
+}
+ 
+.ministries ul {
+  list-style-type: none;
+  width: 500px;
+}
+ 
+.ministries h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+ 
+.ministries li img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+ 
+.ministries li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+ 
+.ministries li {
+  padding: 10px;
+  overflow: auto;
+}
+ 
+.ministries li:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+.row {
+	margin-top: 10px;
+}
+.panel{
+	width: 520px;
+	display: inline-block;
+	padding: 20px;
+}
+.panel img{
+	margin-left: 5px;
+	margin-top: 5px;
+}

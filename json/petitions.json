@@ -1,0 +1,33 @@
+[
+  {"id": "0",
+    "title": "We Need Unlimited Internet ( අසීමිත අන්තර්ජාල පහසුකම් )",
+    "desc": "තොරතුරු තාක්ෂණයෙන් ශ්‍රී ලංකාව ලොව දිනවන්නට අපගේ නව යොවුන් පරපුරට වේගවත් අසීමිත අන්තර්ජාල පහසුකම් ( Unlimited Internet ) ලබා දෙන ලෙස ඔබ තුමාගෙන් සහ ශ්‍රී ලංකා විදුලි සංදේශන නියාමන කොමිසම් සභාවෙන් ( Telecommunications Regulatory Commission of Sri Lanka (TRCSL) ඉල්ලා සිටිමු. ",
+    "image":"res/img/petition-thumb/1.jpg",
+    "votes": "514",
+    "comments": [
+      {"user":"Nimal Ranjith", "message":"I would like to see this to support the growth of IT"},
+      {"user":"Kamali Sujeewa", "message":"Very good idea, please enable this"},
+      {"user":"Eric Nam", "message":"There is a huge need for this!"}
+    ]
+  },
+  {"id": "1",
+    "title": "Lift suspension of The Edge and stop blocking Sarawak Report",
+    "desc": "We condemn the Home Ministry’s three-month suspension of The Edge Weekly and The Edge Financial Daily for their reporting of the 1Malaysia Development Board (1MDB) scandal and the MCMC's blocking of the Sarawak Report website.",
+    "image":"res/img/petition-thumb/2.jpg",
+    "votes": "5",
+    "comments": [
+      {"user":"Nimal Ranjith", "message":"I would like to see this to support the growth of IT"},
+      {"user":"Kamali Sujeewa", "message":"Very good idea, please enable this"},
+      {"user":"Eric Nam", "message":"There is a huge need for this!"}
+    ]},
+  {"id": "2",
+    "title": "Support a strike for junior doctors",
+    "desc": "As a recently qualified doctor, I am deeply concerned with the new contract for trainee doctors being imposed on us by the government.",
+    "image":"res/img/petition-thumb/3.jpg",
+    "votes": "1000",
+    "comments": [
+      {"user":"Nimal Ranjith", "message":"I would like to see this to support the growth of IT"},
+      {"user":"Kamali Sujeewa", "message":"Very good idea, please enable this"},
+      {"user":"Eric Nam", "message":"There is a huge need for this!"}
+    ]}
+]
